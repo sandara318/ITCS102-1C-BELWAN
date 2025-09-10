@@ -1,0 +1,51 @@
+print("welcome to Anime Movie")
+print("Answer a few question to find your next read.")
+print("What genre do you like?")
+print("1.Comedy")
+print("2.Horror")
+print("3.Action")
+genre_type = input("Enter choice (1/2/3): ")
+
+if genre_type == "1":
+	genre = "Comedy"
+	genre = "Horror"
+	genre = "Action"
+print("welcome to Anime Movie")
+print("Answer a few question to find your next read.")
+print("What genre do you like?")
+print("1.Comedy")
+print("2.Horror")
+print("3.Action")
+
+genre_type = input("Enter choice (1/2/3): ")
+
+if genre_type == "1":
+	print("Choose your era:")
+	print("1.1998")
+	print("2.2005 and above")
+	
+elif genre_type == input("Choose one (1/2)"):
+	print("You Choose 1998")
+	print("Here are my Recommendations.")
+	print("1.Naruto")
+	print("2.One Piece")
+	print("3.Hunter x Hunter")
+	
+elif genre_type =="2":
+	print("You Choose 2005 and above")
+	print("Here are my Recommendations.")
+	print("1.Dragon Ball")
+	print("2.Doraemon")	
+	print("3.Sailor Moon")
+
+elif genre_type == "2":
+	print("Your choice is genre are Horror")
+	print("Choose your era:")
+	print("1.1998")
+	print("2.2005 and above")
+
+elif genre_type == "3":
+	print("Your choice is genre are Action")
+	print("Choose your era:")
+	print("1.1998")
+	print("2.2005 and above")
